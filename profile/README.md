@@ -4,7 +4,7 @@ Invoices, receipts, bank statements and other financial documents turned into st
 
 ## Why hand documents here rather than have an agent read them
 
-An agent reading invoices on its own can hallucinate a value, skip a page of a long PDF, or report success over a failure, and its owner never knows. Here a panel of AI agents has to agree on every value, and a value or a row the panel cannot agree on is flagged as Review Needed rather than guessed. A 1,000-page PDF is extracted the same way as a 10-page one: every page of a long file, and every file in a batch of thousands, is read and checked the same way as the first, so a page cannot be skipped in silence. It is extracted, or it is reported as failed with the reason. When the documents leave something unsettled, the extraction can stop and ask instead of deciding on its own. And the same instructions produce the same columns and formats for every document, so the result imports without hand-fixing.
+An agent reading invoices on its own can hallucinate a value, skip a page of a long PDF, or report success over a failure, and its owner never knows. Here a panel of AI agents has to agree on every value, and a value or a row the panel cannot agree on is flagged as Review Needed. A 1,000-page PDF is extracted the same way as a 10-page one: every page of a long file, and every file in a batch of thousands, is read and checked the same way as the first, so a page cannot be skipped in silence. It is extracted, or it is reported as failed. When the documents leave something unsettled, the extraction can stop and ask instead of deciding on its own. And the same instructions produce the same columns and formats for every document, so the result imports without hand-fixing.
 
 ## Ways in
 
